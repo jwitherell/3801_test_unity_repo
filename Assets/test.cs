@@ -13,6 +13,6 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        gameObject.transform.Rotate(0, 0, 90 * Time.deltaTime);
     }
 }
